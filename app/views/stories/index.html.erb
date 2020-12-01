@@ -18,6 +18,7 @@
           <p><%= story.content.truncate(150)  %></p>
           <p><%= link_to 'Show', story, class: "btn btn-primary" %> <%= link_to 'Edit', edit_story_path(story), class: "btn btn-warning" %> <%= link_to 'Destroy', story, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></p>
         </div>
+
       </div>
     </div>
   <% end %>
